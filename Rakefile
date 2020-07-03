@@ -7,7 +7,7 @@ desc 'Getting IG data'
 
 task :crawl do
   # Put ig data here
-  # eg. [[1, url-1], [2, url-2]]
+  # eg. [[id-1, url-1], [id-2, url-2]]
   ig_data = []
 
   output = ig_data.map do |ig|
